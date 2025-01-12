@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th{
+  padding: 4px !important;
+}
+
+tr:nth-child(odd){
+  background-color: rgb(235, 231, 231);
+}
